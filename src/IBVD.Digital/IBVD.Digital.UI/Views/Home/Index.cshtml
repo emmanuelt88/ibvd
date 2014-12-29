@@ -1,0 +1,151 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="container" id="home">
+    <div class="row">
+        <div class="col col-md-12">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/banner.jpg" alt="slide 1" />
+                        <p class="flex-caption">Porque tanto am&oacute; Dios al mundo, que dio a su Hijo unig&eacute;nito, para que todo el que cree en &eacute;l no se pierda, sino que tenga vida eterna. <br /><i>San Juan 3:16</i></p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="about">
+    <div class="outer_container">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-5 col-sm-12"><h1>Nosotros</h1></div>
+                <div class="col col-md-7 col-sm-12 center-row" id="about_content">
+                    <div class="row center">
+                        <div class="col col-md-4 col-sm-12 templatemo_ceo">
+                            <img src="images/En_Construccion.gif" />
+                        </div>
+                        <div class="col col-md-8 col-sm-12">
+                            <!-- 	<p>Karma is free HTML5 website template with Bootstrap responsive framework. Feel free to use this layout for any website.</p>
+                            <p>Vestibulum ac enim.Vestibulum at mollis justo, eu elementum nisi. Sed consequat odio eget nunc tristique venenatis. Nullam non eros molestie, tristique libero ut, lacinia diam.</p>
+                            <p>Integer hendrerit nibh at aliquam tincidunt. Duis auctor congue arcu eget congue. Vestibulum tristique sollicitudin est, non porttitor est viverra quis.</p> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="outer_container">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-5 col-sm-12 col-xs-12">
+                    <h1>Actividades</h1>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <div class="services_buttons">
+                        <ul id="services_tabs">
+                            <li class="icon-button active" data-target="#pencil"><i class="fa fa-calendar" style="vertical-align: middle"></i></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-md-5 col-sm-10 col-xs-10 center-row" id="services_content">
+                    <div class="arrow-left"></div>
+                    <div class="arrow-box center-row">
+                        <div class="tab-content center">
+                            <div class="tab-pane fade in active" id="pencil">
+
+                                <h3>Domingo</h3>
+                                <ul>
+                                    <li>10hs - Culto general</li>
+                                    <li>14hs - Adolescentes (Domingo por medio)</li>
+                                </ul>
+                                <h3>Mi&eacute;rcoles</h3>
+                                <ul>
+                                    <li>19.30hs - Reuni&oacute;n de oraci&oacute;n</li>
+                                </ul>
+                                <h3>S&aacute;bado</h3>
+                                <ul>
+                                    <li>20hs - Reuni&oacute;n de jovenes</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="outer_container">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-5 col-sm-12"><h1>Contacto</h1></div>
+                <div class="col col-md-7 col-sm-12 col-xs-12 center-row" id="contact_content">
+                    <form role="form" action="/Home/Contactar" method="post" class="center">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input name="fullname" type="text" class="form-control" id="input_name" required placeholder="Nombre...">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input name="email" type="email" class="form-control" id="input_email" required placeholder="Correo...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" rows="3" class="form-control" id="input_message" required placeholder="Mensaje o consulta..."></textarea><br>
+                                    <button type="submit" class="btn btn-primary pull-right">ENVIAR</button>
+                                </div>
+                            </div>
+                        </div>  
+                    </form>          
+                  
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="map">
+    <div class="outer_container">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-5 col-md-push-7 col-sm-12"><h1>Ubicaci&oacute;n</h1></div>
+                <div class="col col-md-7 col-md-pull-5 col-sm-12">
+                    <div id="google_map">
+                    </div>
+
+
+                </div>
+
+            </div>
+            <br />
+            <table id="direccion-table">
+                <tr>
+                    <th>
+                        Direcci&oacute;n:
+                    </th>
+                    <td>
+                        Av Ram&oacute;n Franco 5140 (entre San Vicente y Patagones, a 2 cuadras de Av.Mitre),Villa Dom&iacute;nico
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
