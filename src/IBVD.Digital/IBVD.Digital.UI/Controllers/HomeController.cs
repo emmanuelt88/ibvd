@@ -1,6 +1,7 @@
 ﻿using IBVD.Digital.Common;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
@@ -15,6 +16,8 @@ namespace IBVD.Digital.UI.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.FacebookURL = ConfigurationManager.AppSettings["Facebook.URL"];
+            ViewBag.WebSiteURL = ConfigurationManager.AppSettings["Website.URL"];
 
             return View();
         }

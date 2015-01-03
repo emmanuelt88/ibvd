@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home";
+    ViewBag.Title = "";
 }
 
 <div class="container" id="home">
@@ -8,8 +8,8 @@
             <div class="flexslider">
                 <ul class="slides">
                     <li>
-                        <img src="images/banner.jpg" alt="slide 1" />
-                        <p class="flex-caption">Porque tanto am&oacute; Dios al mundo, que dio a su Hijo unig&eacute;nito, para que todo el que cree en &eacute;l no se pierda, sino que tenga vida eterna. <br /><i>San Juan 3:16</i></p>
+                        <img src="@Url.Content("~/images/banner.jpg")" alt="slide 1" />
+                        ><p class="flex-caption"><span style="font-style:italic;">"Porque tanto am&oacute; Dios al mundo, que dio a su Hijo unig&eacute;nito, para que todo el que cree en &eacute;l no se pierda, sino que tenga vida eterna."</span> <br /><i>San Juan 3:16 (NVI)</i></p>
                     </li>
 
                 </ul>
@@ -26,14 +26,23 @@
                 <div class="col col-md-5 col-sm-12"><h1>Nosotros</h1></div>
                 <div class="col col-md-7 col-sm-12 center-row" id="about_content">
                     <div class="row center">
-                        <div class="col col-md-4 col-sm-12 templatemo_ceo">
-                            <img src="images/En_Construccion.gif" />
+                        <div class="col col-md-4 col-sm-12 center-block" style="text-align:center;padding-top:20px; ">
+                            <img src="@Url.Content("~/images/iglesia.jpg")" alt="Nuestra Iglesia" class="center-block img-circle img-responsive">
+
+                            
                         </div>
                         <div class="col col-md-8 col-sm-12">
-                            <!-- 	<p>Karma is free HTML5 website template with Bootstrap responsive framework. Feel free to use this layout for any website.</p>
-                            <p>Vestibulum ac enim.Vestibulum at mollis justo, eu elementum nisi. Sed consequat odio eget nunc tristique venenatis. Nullam non eros molestie, tristique libero ut, lacinia diam.</p>
-                            <p>Integer hendrerit nibh at aliquam tincidunt. Duis auctor congue arcu eget congue. Vestibulum tristique sollicitudin est, non porttitor est viverra quis.</p> -->
-
+                            <h3>¿Qui&eacute;nes somos?</h3>
+                            <p>Somos un grupo de personas que decidimos vivir nuestra fe en comunidad. Desde fines del 1996 nos reunimos, primero en nuestras casas, luego en una propiedad rentada y desde diciembre de 2006 en nuestro propio espacio en la calle Ram&oacute;n Franco 5140.</p>
+                            <p>Intentamos poner en pr&aacute;ctica el mandato de Jesucristo de ser una expresi&oacute;n local, f&iacute;sica y tangible de Su Iglesia. La mayor parte de nosotros vive en la Zona Sur  del Gran Buenos Aires.</p>
+                            <h3>¿En qu&eacute; creemos?</h3>
+                            <p>Nuestra creencia se basa en la siguiente <a href="http://www.bautistas.org.ar/prin_decla_doc.htm">declaraci&oacute;n de Fe</a>. Te invitamos a que puedas tomar un tiempo para leerla.</p>
+                            <h3>Afiliaciones</h3>
+                            <p>Nos encontramos afiliados a CEBA (Convenci&oacute;n Evang&eacute;lica Bautista Argentina) y ABA (Asociaci&oacute;n Bautista Argentina).</p>
+                            <p>
+                                <div class="afiliado-item"><a href="http://ceba.sion.com/"><img class="img-circle img-responsive" src="@Url.Content("~/images/logo_CEBA.jpg")" alt="CEBA" />CEBA</a></div>
+                                <div class="afiliado-item"><a href="http://www.bautistas.org.ar/"><img class="img-circle img-responsive" src="@Url.Content("~/images/logo_ABA.jpg")" alt="ABA" />ABA</a></div>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -91,6 +100,7 @@
             <div class="row">
                 <div class="col col-md-5 col-sm-12"><h1>Contacto</h1></div>
                 <div class="col col-md-7 col-sm-12 col-xs-12 center-row" id="contact_content">
+
                     <form role="form" action="/Home/Contactar" method="post" class="center">
                         <div class="row">
                             <div class="col-md-6">
@@ -111,9 +121,9 @@
                                     <button type="submit" class="btn btn-primary pull-right">ENVIAR</button>
                                 </div>
                             </div>
-                        </div>  
-                    </form>          
-                  
+                        </div>
+                    </form>
+
 
 
 
@@ -142,7 +152,7 @@
                         Direcci&oacute;n:
                     </th>
                     <td>
-                        Av Ram&oacute;n Franco 5140 (entre San Vicente y Patagones, a 2 cuadras de Av.Mitre),Villa Dom&iacute;nico
+                        &nbsp;Av. Ram&oacute;n Franco 5140 (entre San Vicente y Patagones, a 2 cuadras de Av. Mitre), Villa Dom&iacute;nico
                     </td>
                 </tr>
             </table>

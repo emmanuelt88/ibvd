@@ -28,10 +28,6 @@ var position = new google.maps.LatLng(-34.6949554,-58.325494);
     var mapOptions = {
       zoom: 15,
       center: position
-	   
-	   
-
-
     };
     map = new google.maps.Map(document.getElementById('google_map'),  mapOptions);
 	
@@ -40,7 +36,7 @@ var position = new google.maps.LatLng(-34.6949554,-58.325494);
       map: map,
 	   animation: google.maps.Animation.DROP,
 
-      title: 'Iglesia Bautista en Villa Dominico'
+      title: 'Iglesia Bautista De Villa Dominico'
   });
 
 }
