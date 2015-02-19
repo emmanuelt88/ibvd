@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu Id="1">
+    <Items>
+        <MenuItem Id="1" Title="Administración" Path="#"  >
+            <Childrens>
+                <MenuItem Id="11" Title="Listado de Roles" Path="/Role/Index" Permission="Administracion.ListarRoles"></MenuItem>
+                <MenuItem Id="12" Title="Listado de Usuarios" Path="/User/Index" Permission="Administracion.ListarUsuarios"></MenuItem>
+                <MenuItem Id="13" Title="Nuevo Usuario" Path="/User/Create" Permission="Administracion.CrearUsuario"></MenuItem>
+            </Childrens>
+        </MenuItem>
+      <MenuItem Id="2" Title="Adoración" Path="#"   >
+        <Childrens>
+          <MenuItem Id="21" Title="Canciones" Path="#" >
+            <Childrens>
+              <MenuItem Id="211" Title="Listado de Canciones" Path="/Cancion/Index" Permission="Canciones.Listar"></MenuItem>
+              <MenuItem Id="212" Title="Nueva Canción" Path="/Cancion/Create" Permission="Canciones.Crear"></MenuItem>
+              <MenuItem Id="213" Title="Importar" Path="/Cancion/Importar" Permission="Canciones.Importar"></MenuItem>
+              <MenuItem Id="214" Title="Exportar" Path="/Cancion/Exportar" Permission="Canciones.Exportar"></MenuItem>
+            </Childrens>
+          </MenuItem>
+          <MenuItem Id="22" Title="Directorio" Path="#"  >
+            <Childrens>
+              <MenuItem Id="221" Title="Directorio de imágenes" Path="/Directorio/Index" Permission="Imagenes.Listar"></MenuItem>
+              <MenuItem Id="222" Title="Editar imágenes" Path="/Directorio/Edit" Permission="Imagenes.Editar"></MenuItem>
+            </Childrens>
+          </MenuItem>
+          <MenuItem Id="23" Title="Biblias" Path="#"  >
+            <Childrens>
+              <MenuItem Id="231" Title="Importar" Path="/Biblia/Importar" Permission="Biblias.Importar"></MenuItem>
+              <MenuItem Id="232" Title="Consultar" Path="/Biblia/Index" Permission="Biblias.Consultar"></MenuItem>
+            </Childrens>
+          </MenuItem>
+          <MenuItem Id="24" Title="Reuniones" Path="#"   >
+            <Childrens>
+              <MenuItem Id="241" Title="Orden de cultos" Path="/Reunion/Index" Permission="Reuniones.Listar"></MenuItem>
+              <MenuItem Id="242" Title="Nueva Reunión" Path="/Reunion/Create" Permission="Reuniones.Crear"></MenuItem>
+              <MenuItem Id="243" Title="Listado de Reuniones" Path="/Reunion/ProximasFechas" Permission="Reuniones.ListarProximasFechas"></MenuItem>
+            </Childrens>
+          </MenuItem>
+        </Childrens>
+      </MenuItem>
+       
+    </Items>
+</Menu>

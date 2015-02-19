@@ -1,0 +1,43 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="margin: 0px; padding: 0px;">
+<head runat="server">
+    <title>
+        
+        <%= ViewData[IBVD.Digital.UI.Models.UICommonKeys.TITLE] %>
+    </title>
+    <% Html.RenderPartial("UserControls/ContentCSS_JS"); %>
+</head>
+<body style="margin: 0px; padding: 0px;">
+    <div class="Tabla ui-widget-content" id="Page">
+        <div class="Fila">
+            <div class="Celda BackgroundHeader" id="Header">
+                <div id="logindisplay">
+                    <% Html.RenderPartial("LogOnUserControl"); %>
+                </div>
+            </div>
+        </div>
+        <div class="Fila">
+            <div class="Celda ui-widget-content" id="MenuContent">
+                <% Html.RenderPartial("UserControls/Menu"); %>
+            </div>
+        </div>
+        <div class="Fila">
+            <div class="Celda ui-widget-content" id="Contenedor" style="clear:both;">
+               <div id="Content" >
+                <h1 style="margin:auto; margin-bottom:5px;" class="OcultoInicio" id="TituloPagina">
+                    <%= ViewData[IBVD.Digital.UI.Models.UICommonKeys.TITLE] %></h1>
+                <% Html.RenderPartial("UserControls/ErrorPanel"); %>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                </div>
+            </div>
+        </div>
+        <div class="Fila">
+            <div class="Celda" id="Footer">
+                <% Html.RenderPartial("Footer"); %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

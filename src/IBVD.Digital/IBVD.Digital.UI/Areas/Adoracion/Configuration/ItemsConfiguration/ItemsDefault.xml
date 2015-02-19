@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ItemsConfiguration>
+    <Childrens>
+    <ItemConfiguration Name="SexosConfiguration">
+        <Items>
+            <KeyValueItem Key="Seleccione" Default="true" Value=""></KeyValueItem>
+            <KeyValueItem Key="Masculino"  Value="M"></KeyValueItem>
+            <KeyValueItem Key="Femenino"   Value="F"></KeyValueItem>
+        </Items>
+    </ItemConfiguration>
+      <ItemConfiguration Name="TonosConfiguration">
+        <Items>
+          <KeyValueItem Key="Seleccione" Default="true" Value=""></KeyValueItem>
+          <KeyValueItem Key="C"  Value="C"></KeyValueItem>
+          <KeyValueItem Key="D"   Value="D"></KeyValueItem>
+          <KeyValueItem Key="M"  Value="M"></KeyValueItem>
+          <KeyValueItem Key="F"   Value="F"></KeyValueItem>
+          <KeyValueItem Key="G"  Value="G"></KeyValueItem>
+          <KeyValueItem Key="A"   Value="A"></KeyValueItem>
+          <KeyValueItem Key="B"   Value="B"></KeyValueItem>
+        </Items>
+      </ItemConfiguration>
+      <ItemConfiguration Name="CompacesConfiguration">
+        <Items>
+          <KeyValueItem Key="Seleccione" Default="true" Value=""></KeyValueItem>
+          <KeyValueItem Key="3/4"  Value="3/4"></KeyValueItem>
+          <KeyValueItem Key="4/4"   Value="4/4"></KeyValueItem>
+        </Items>
+      </ItemConfiguration>
+
+      <ItemConfiguration Name="EstilosConfiguration">
+        <Items>
+          <KeyValueItem Key="{Formulario_legend}"  Value="text-align: left;font-size: 11px; font-weight:bold; font-family: Arial,sans-serif;padding:5px;"></KeyValueItem>  
+          <KeyValueItem Key="{Formulario_fieldset}"  Value="text-align: left;margin: auto;font-size: 11px;border: 1px solid #eeeeee;background: #ffffff none 50% 50% repeat-x;color: #333333;font-family: Arial,sans-serif;"></KeyValueItem>
+          <KeyValueItem Key="{Formulario_p}"    Value="text-align: left;font-size: 11px;font-family: Arial,sans-serif;padding:5px;"></KeyValueItem>
+          <KeyValueItem Key="{Formulario_label}"    Value="margin: auto;font-size: 11px;font-family: Arial,sans-serif;width:130px;font-weight:bold;margin-left:5px;margin-right:5px;text-align:left;float:left;"></KeyValueItem>
+          <KeyValueItem Key="{Formulario_span}" Value="text-align: center;margin: auto;font-size: 11px;color: #333333;font-family: Arial,sans-serif;"></KeyValueItem>
+          <KeyValueItem Key="{DivHeader}" Value="border: 1px solid #ccc;background-color: #222;color: #ffffff;font-weight: bold;"></KeyValueItem>
+          <KeyValueItem Key="{DivContent}" Value="border: 1px solid #eeeeee;background: #ffffff none 50% 50% repeat-x;color: #333333;font-family: Arial,sans-serif;border: 1px solid #cdd5da;background-color: #f6f6f6;color: #111111;outline: none;border-left-width:0px;border-right-width:0px; padding:10px;"></KeyValueItem>
+          <KeyValueItem Key="{DivFooter}" Value="text-align: center;margin: auto;font-size: 11px;border: 1px solid #eeeeee;color: #333333;font-family: Arial,sans-serif;"></KeyValueItem>
+          <KeyValueItem Key="{MainContent}" Value="border: 1px solid #eeeeee;background: #ffffff none 50% 50% repeat-x;color: #333333;font-family: Arial,sans-serif;font-size: 1.1em;border: 1px solid #cdd5da;background-color: #f6f6f6;color: #111111;outline: none;border-top-width:0px;border-bottom-width:0px;"></KeyValueItem>
+          <KeyValueItem Key="{html_p}" Value="font-size: 11px;color: #333333;font-family: Arial,sans-serif;padding:5px;"></KeyValueItem>
+          <KeyValueItem Key="{html_a}" Value="font-family: Arial,sans-serif; font-size: 1.1em;"></KeyValueItem>
+          <KeyValueItem Key="{TABLE}" Value="border: 1px solid; #ccc;font-size: 11px;color: #333333;font-family: Arial,sans-serif;padding:5px;"></KeyValueItem>
+          <KeyValueItem Key="{TABLE_FORM}" Value="font-size: 11px;color: #333333;font-family: Arial,sans-serif;padding:0px;"></KeyValueItem>
+          <KeyValueItem Key="{TH}" Value="font-size: 11px;background-color: #222;color: #ffffff;font-family: Arial,sans-serif;padding:5px;text-align:center;"></KeyValueItem>
+          <KeyValueItem Key="{TD}" Value="vertical-align:top;border: 1px solid #ccc;font-size: 11px;color: #333333;font-family: Arial,sans-serif;padding:5px; text-align:center;"></KeyValueItem>
+          <KeyValueItem Key="{TD_LABEL}" Value="vertical-align:top;font-size: 11px;color: #333333;font-family: Arial,sans-serif;padding:5px; text-align:left; width:140px;"></KeyValueItem>
+          <KeyValueItem Key="{TD_VALUE}" Value="vertical-align:top;font-size: 11px;color: #333333;font-family: Arial,sans-serif;padding:5px; text-align:left;"></KeyValueItem>
+          <KeyValueItem Key="{passwordStyle}" Value="font-family: Arial,sans-serif;border: 1px solid #ccc; background-color:#eee;padding:3px;"></KeyValueItem>
+          
+        </Items>
+      </ItemConfiguration>
+    </Childrens>
+</ItemsConfiguration>
